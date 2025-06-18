@@ -1,0 +1,51 @@
+[
+  {
+    "model": "exam.subject",
+    "pk": 1,
+    "fields": {
+      "name": "Math"
+    }
+  },
+  {
+    "model": "exam.chapter",
+    "pk": 1,
+    "fields": {
+      "subject": 1,
+      "name": "Algebra Test"
+    }
+  },
+  {
+    "model": "exam.chapter",
+    "pk": 2,
+    "fields": {
+      "subject": 1,
+      "name": "Geometry Test"
+    }
+  },
+  {
+    "model": "exam.question",
+    "pk": 1,
+    "fields": {
+      "chapter": 1,
+      "question_text": "What is 2 + 2?",
+      "option1": "3",
+      "option2": "4",
+      "option3": "5",
+      "option4": "6",
+      "answer": "4"
+    }
+  },
+  {
+    "model": "exam.question",
+    "pk": 2,
+    "fields": {
+      "chapter": 1,
+      "question_text": "What is 3 + 5?",
+      "option1": "7",
+      "option2": "8",
+      "option3": "9",
+      "option4": "10",
+      "answer": "8"
+    }
+  }
+]
